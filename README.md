@@ -5,6 +5,11 @@ Anthropic API account. The data is fetched from Anthropic's official
 [`GET /v1/models` endpoint](https://docs.anthropic.com/en/api/models-list) once
 per day by GitHub Actions and committed as public JSON.
 
+Anthropic's Models API requires an API key. This repository exists as a
+read-only public mirror for environments where an Anthropic API key is not
+available or should not be distributed. It is a periodically refreshed
+snapshot, not a proxy for the Anthropic API.
+
 ## Current models
 
 The generated table below is intentionally limited to fields returned by the
