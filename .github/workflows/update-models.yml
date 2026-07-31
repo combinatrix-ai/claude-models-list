@@ -1,0 +1,39 @@
+name: Update Anthropic model list
+
+on:
+  schedule:
+    # Run once per day at a non-round minute to reduce shared-runner contention.
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Refresh model snapshot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_models.py
+
+      - name: Commit changed snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- models.json README.md; then
+            echo "Model list is already current."
+            exit 0
+          fi
+          git add models.json README.md
+          git commit -m "chore: refresh Anthropic model list"
+          git push
