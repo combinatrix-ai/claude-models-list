@@ -17,10 +17,11 @@ API. This project does not infer lifecycle, deprecation, retirement, or
 successor claims that Anthropic has not included in the response.
 
 <!-- BEGIN ANTHROPIC MODELS TABLE -->
-Last refreshed: `2026-09-01T05:17:03Z` (UTC).
+Last refreshed: `2026-09-02T04:42:31Z` (UTC).
 
 | Model | Model ID | Created | Max input tokens | Max output tokens |
 | --- | --- | --- | ---: | ---: |
+| Claude Fable 5.1 | `claude-fable-5-1` | 2026-08-28 | 1,000,000 | 128,000 |
 | Claude Opus 5 | `claude-opus-5` | 2026-07-24 | 1,000,000 | 128,000 |
 | Claude Sonnet 5 | `claude-sonnet-5` | 2026-06-29 | 1,000,000 | 128,000 |
 | Claude Fable 5 | `claude-fable-5` | 2026-06-07 | 1,000,000 | 128,000 |
