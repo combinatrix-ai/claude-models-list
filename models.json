@@ -4,7 +4,7 @@
     "endpoint": "https://api.anthropic.com/v1/models",
     "documentation": "https://docs.anthropic.com/en/api/models-list"
   },
-  "retrieved_at": "2026-09-17T04:58:25Z",
+  "retrieved_at": "2026-09-18T04:50:43Z",
   "data": [
     {
       "type": "model",
