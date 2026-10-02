@@ -4,13 +4,14 @@
     "endpoint": "https://api.anthropic.com/v1/models",
     "documentation": "https://docs.anthropic.com/en/api/models-list"
   },
-  "retrieved_at": "2026-10-01T06:05:23Z",
+  "retrieved_at": "2026-10-02T05:48:08Z",
   "data": [
     {
       "type": "model",
       "id": "claude-sonnet-5-5",
       "display_name": "Claude Sonnet 5.5",
       "created_at": "2026-09-28T00:00:00Z",
+      "line": "sonnet",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -80,6 +81,7 @@
       "id": "claude-opus-5-5",
       "display_name": "Claude Opus 5.5",
       "created_at": "2026-09-21T16:24:00Z",
+      "line": "opus",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -149,6 +151,7 @@
       "id": "claude-fable-5-1",
       "display_name": "Claude Fable 5.1",
       "created_at": "2026-08-28T00:00:00Z",
+      "line": "fable",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -218,6 +221,7 @@
       "id": "claude-opus-5",
       "display_name": "Claude Opus 5",
       "created_at": "2026-07-24T00:00:00Z",
+      "line": "opus",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -287,6 +291,7 @@
       "id": "claude-sonnet-5",
       "display_name": "Claude Sonnet 5",
       "created_at": "2026-06-29T00:00:00Z",
+      "line": "sonnet",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -356,6 +361,7 @@
       "id": "claude-fable-5",
       "display_name": "Claude Fable 5",
       "created_at": "2026-06-07T00:00:00Z",
+      "line": "fable",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -425,6 +431,7 @@
       "id": "claude-opus-4-8",
       "display_name": "Claude Opus 4.8",
       "created_at": "2026-05-28T00:00:00Z",
+      "line": "opus",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -494,6 +501,7 @@
       "id": "claude-opus-4-7",
       "display_name": "Claude Opus 4.7",
       "created_at": "2026-04-14T00:00:00Z",
+      "line": "opus",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -563,6 +571,7 @@
       "id": "claude-sonnet-4-6",
       "display_name": "Claude Sonnet 4.6",
       "created_at": "2026-02-17T00:00:00Z",
+      "line": "sonnet",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -632,6 +641,7 @@
       "id": "claude-opus-4-6",
       "display_name": "Claude Opus 4.6",
       "created_at": "2026-02-04T00:00:00Z",
+      "line": "opus",
       "max_input_tokens": 1000000,
       "max_tokens": 128000,
       "capabilities": {
@@ -701,6 +711,7 @@
       "id": "claude-opus-4-5-20251101",
       "display_name": "Claude Opus 4.5",
       "created_at": "2025-11-24T00:00:00Z",
+      "line": "opus",
       "max_input_tokens": 200000,
       "max_tokens": 64000,
       "capabilities": {
@@ -770,6 +781,7 @@
       "id": "claude-haiku-4-5-20251001",
       "display_name": "Claude Haiku 4.5",
       "created_at": "2025-10-15T00:00:00Z",
+      "line": "haiku",
       "max_input_tokens": 200000,
       "max_tokens": 64000,
       "capabilities": {
@@ -839,6 +851,7 @@
       "id": "claude-sonnet-4-5-20250929",
       "display_name": "Claude Sonnet 4.5",
       "created_at": "2025-09-29T00:00:00Z",
+      "line": "sonnet",
       "max_input_tokens": 1000000,
       "max_tokens": 64000,
       "capabilities": {
