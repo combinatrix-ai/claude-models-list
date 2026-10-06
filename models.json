@@ -4,7 +4,7 @@
     "endpoint": "https://api.anthropic.com/v1/models",
     "documentation": "https://docs.anthropic.com/en/api/models-list"
   },
-  "retrieved_at": "2026-10-05T05:50:07Z",
+  "retrieved_at": "2026-10-06T06:29:09Z",
   "data": [
     {
       "type": "model",
@@ -71,6 +71,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": false
             }
           }
         }
@@ -141,6 +144,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": false
             }
           }
         }
@@ -211,6 +217,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": false
             }
           }
         }
@@ -280,6 +289,9 @@
               "supported": false
             },
             "adaptive": {
+              "supported": true
+            },
+            "disabled": {
               "supported": true
             }
           }
@@ -351,6 +363,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": true
             }
           }
         }
@@ -421,6 +436,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": false
             }
           }
         }
@@ -490,6 +508,9 @@
               "supported": false
             },
             "adaptive": {
+              "supported": true
+            },
+            "disabled": {
               "supported": true
             }
           }
@@ -561,6 +582,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": true
             }
           }
         }
@@ -630,6 +654,9 @@
               "supported": true
             },
             "adaptive": {
+              "supported": true
+            },
+            "disabled": {
               "supported": true
             }
           }
@@ -701,6 +728,9 @@
             },
             "adaptive": {
               "supported": true
+            },
+            "disabled": {
+              "supported": true
             }
           }
         }
@@ -771,6 +801,9 @@
             },
             "adaptive": {
               "supported": false
+            },
+            "disabled": {
+              "supported": true
             }
           }
         }
@@ -841,6 +874,9 @@
             },
             "adaptive": {
               "supported": false
+            },
+            "disabled": {
+              "supported": true
             }
           }
         }
@@ -911,6 +947,9 @@
             },
             "adaptive": {
               "supported": false
+            },
+            "disabled": {
+              "supported": true
             }
           }
         }
