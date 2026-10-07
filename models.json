@@ -4,7 +4,7 @@
     "endpoint": "https://api.anthropic.com/v1/models",
     "documentation": "https://docs.anthropic.com/en/api/models-list"
   },
-  "retrieved_at": "2026-10-06T06:29:09Z",
+  "retrieved_at": "2026-10-07T06:08:12Z",
   "data": [
     {
       "type": "model",
@@ -59,6 +59,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
@@ -133,6 +142,15 @@
         "pdf_input": {
           "supported": true
         },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
         "structured_outputs": {
           "supported": true
         },
@@ -205,6 +223,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
@@ -279,6 +306,15 @@
         "pdf_input": {
           "supported": true
         },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
         "structured_outputs": {
           "supported": true
         },
@@ -351,6 +387,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
@@ -425,6 +470,15 @@
         "pdf_input": {
           "supported": true
         },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
         "structured_outputs": {
           "supported": true
         },
@@ -497,6 +551,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
@@ -571,6 +634,15 @@
         "pdf_input": {
           "supported": true
         },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
         "structured_outputs": {
           "supported": true
         },
@@ -643,6 +715,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
@@ -717,6 +798,15 @@
         "pdf_input": {
           "supported": true
         },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
         "structured_outputs": {
           "supported": true
         },
@@ -789,6 +879,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
@@ -863,6 +962,15 @@
         "pdf_input": {
           "supported": true
         },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
         "structured_outputs": {
           "supported": true
         },
@@ -935,6 +1043,15 @@
         },
         "pdf_input": {
           "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
         },
         "structured_outputs": {
           "supported": true
