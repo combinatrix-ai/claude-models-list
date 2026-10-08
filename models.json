@@ -4,8 +4,93 @@
     "endpoint": "https://api.anthropic.com/v1/models",
     "documentation": "https://docs.anthropic.com/en/api/models-list"
   },
-  "retrieved_at": "2026-10-07T06:08:12Z",
+  "retrieved_at": "2026-10-08T06:14:13Z",
   "data": [
+    {
+      "type": "model",
+      "id": "claude-haiku-5-5",
+      "display_name": "Claude Haiku 5.5",
+      "created_at": "2026-10-07T18:00:00Z",
+      "line": "haiku",
+      "max_input_tokens": 1000000,
+      "max_tokens": 128000,
+      "capabilities": {
+        "batch": {
+          "supported": true
+        },
+        "citations": {
+          "supported": true
+        },
+        "code_execution": {
+          "supported": true
+        },
+        "context_management": {
+          "supported": true,
+          "clear_tool_uses_20250919": {
+            "supported": true
+          },
+          "clear_thinking_20251015": {
+            "supported": true
+          },
+          "compact_20260112": {
+            "supported": true
+          }
+        },
+        "effort": {
+          "supported": true,
+          "low": {
+            "supported": true
+          },
+          "medium": {
+            "supported": true
+          },
+          "high": {
+            "supported": true
+          },
+          "xhigh": {
+            "supported": true
+          },
+          "max": {
+            "supported": true
+          }
+        },
+        "image_input": {
+          "supported": true
+        },
+        "pdf_input": {
+          "supported": true
+        },
+        "server_tools": {
+          "supported": true,
+          "code_execution": {
+            "supported": true
+          },
+          "web_search": {
+            "supported": true
+          }
+        },
+        "structured_outputs": {
+          "supported": true
+        },
+        "thinking": {
+          "supported": true,
+          "types": {
+            "enabled": {
+              "supported": false
+            },
+            "adaptive": {
+              "supported": true
+            },
+            "disabled": {
+              "supported": true
+            }
+          }
+        }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
+    },
     {
       "type": "model",
       "id": "claude-sonnet-5-5",
@@ -86,7 +171,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -168,7 +256,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -250,7 +341,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -332,7 +426,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -414,7 +511,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -496,7 +596,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -578,7 +681,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -660,7 +766,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -742,7 +851,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -824,7 +936,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -906,7 +1021,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -988,7 +1106,10 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     },
     {
       "type": "model",
@@ -996,7 +1117,7 @@
       "display_name": "Claude Sonnet 4.5",
       "created_at": "2025-09-29T00:00:00Z",
       "line": "sonnet",
-      "max_input_tokens": 1000000,
+      "max_input_tokens": 200000,
       "max_tokens": 64000,
       "capabilities": {
         "batch": {
@@ -1070,10 +1191,13 @@
             }
           }
         }
-      }
+      },
+      "lifecycle": "active",
+      "deprecated_at": null,
+      "retires_at": null
     }
   ],
-  "first_id": "claude-sonnet-5-5",
+  "first_id": "claude-haiku-5-5",
   "last_id": "claude-sonnet-4-5-20250929",
   "has_more": false
 }
