@@ -17,7 +17,7 @@ API. This project does not infer lifecycle, deprecation, retirement, or
 successor claims that Anthropic has not included in the response.
 
 <!-- BEGIN ANTHROPIC MODELS TABLE -->
-Last refreshed: `2026-11-20T07:26:29Z` (UTC).
+Last refreshed: `2026-11-21T07:20:18Z` (UTC).
 
 | Model | Model ID | Created | Max input tokens | Max output tokens |
 | --- | --- | --- | ---: | ---: |
